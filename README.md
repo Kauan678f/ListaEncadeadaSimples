@@ -41,3 +41,6 @@ console.log(listUse.printIndex(14));```
 
 ###Resultado Esperado
 Ao executar o exemplo acima, você deve obter a seguinte saída:
+Lista completa: 12 -> 22 -> 14 -> 41 -> 14 ->
+Posição do elemento 14: 2 -> 4 ->
+
