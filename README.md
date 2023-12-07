@@ -38,20 +38,6 @@ listUse.insert(12);
 // listUse.delete(2);
 console.log(listUse.print());
 console.log(listUse.printIndex(14));
-
-javascript
-import List from "./list.js";
-
-let listUse = new List();
-listUse.insert(22, 7);
-listUse.add(14);
-listUse.add(41);
-listUse.add(14);
-listUse.insert(12);
-listUse.delete(0);
-listUse.delete(2);
-console.log(listUse.print());
-console.log(listUse.printIndex(14));
 ```
 ### Resultado Esperado
 - Ao executar o exemplo acima, você deve obter a seguinte saída:
