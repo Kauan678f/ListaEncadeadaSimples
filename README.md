@@ -40,3 +40,18 @@ console.log(listUse.print());
 console.log(listUse.printIndex(14));```
 12 -> 22 -> 14 -> 41 -> 14 ->
 2 -> 4 ->
+import list from "./list.js"
+// console.log(list)
+```javascript
+import List from "./list.js";
+
+let listUse = new list();
+listUse.insert(22, 7)
+listUse.add(14)
+listUse.add(41)
+listUse.add(14)
+listUse.insert(12)
+listUse.delete(0)
+listUse.delete(2)
+console.log(listUse.print())
+console.log(listUse.printIndex(14))```
