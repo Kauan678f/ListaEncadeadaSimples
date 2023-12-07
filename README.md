@@ -45,4 +45,5 @@ console.log(listUse.printIndex(14));
 - Posição do elemento 14: 2 -> 4 ->
 
 ### Autor
+  Kauan Silva da Costa
   https://www.linkedin.com/in/kauan-silva-926306233/
