@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esta documentação visa fornecer informações sobre a estrutura, funcionalidades e implementação deste projeto. Se você é um desenvolvedor iniciante ou experiente, espero que esta documentação facilite a compreensão.
+Esta documentação visa fornecer informações sobre a estrutura, funcionalidades e implementação deste projeto.
 
 ## Objetivo do Projeto
 
