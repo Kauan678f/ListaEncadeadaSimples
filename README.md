@@ -38,3 +38,5 @@ listUse.insert(12);
 // listUse.delete(2);
 console.log(listUse.print());
 console.log(listUse.printIndex(14));```
+12 -> 22 -> 14 -> 41 -> 14 ->
+2 -> 4 ->
