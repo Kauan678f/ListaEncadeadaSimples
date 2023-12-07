@@ -6,7 +6,7 @@ Esta documentação visa fornecer informações sobre a estrutura, funcionalidad
 
 ## Objetivo do Projeto
 
-O objetivo principal deste projeto é praticar conceitos de estrutura de dados.
+O objetivo principal deste projeto é praticar conceitos de estrutura de dados e Testes Unitarios.
 
 ## Tecnologias usadas no projeto
 
