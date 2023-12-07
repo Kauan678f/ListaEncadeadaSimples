@@ -25,5 +25,5 @@ O objetivo principal deste projeto é praticar conceitos de estrutura de dados.
 - **print(position?):** Sem parametro o metodo retorna todos os dados, passando a posição ele te retorna determinado resultado.
 - **printIndex(element):** É passado o elemento no parametro e é retornado a posição do cujo.
 - **delete(position?):** Sem parametro o metodo exclui o 1° elemento da lista, passando a posição ele remove o dado de seu posicionamento.
-- **insert(...):** (Inserir descrição)
+- **insert(data, position?):** (Inserir descrição)
 - **len():** metodo responsavel por retornar o tamanho da lista.
