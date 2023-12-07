@@ -38,8 +38,8 @@ listUse.insert(12);
 // listUse.delete(2);
 console.log(listUse.print());
 console.log(listUse.printIndex(14));
-```
-```javascript
+
+javascript
 import List from "./list.js";
 
 let listUse = new List();
