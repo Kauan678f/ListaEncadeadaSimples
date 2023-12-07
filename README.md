@@ -15,7 +15,7 @@
   Nodejs
   
 ## Fucionalidades
-  Metodos:
+  ## Metodos:
     ## add // Passando o dado no parametro da função adicionar, ela acrecenta ele na lista 
     ## print // Sem parametro o metodo retorna todos os dados, passando a posição ele te retorna determinado resultado
     ## printIndex // É passado o elemento no parametro e é retornado a posição do cujo
