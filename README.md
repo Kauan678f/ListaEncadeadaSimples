@@ -22,3 +22,17 @@ O objetivo principal deste projeto é praticar conceitos de estrutura de dados.
 - **delete(position?):** Sem parametro exclui o primeiro elemento da lista e com ele remove na posição especificada.
 - **insert(number, position?):** Sem o segundo parametro ele adiciona o numero na posição 0 e com ele é adicionado na posição especificada.
 - **len():** Retorna o tamanho da lista.
+
+import list from "./list.js"
+// console.log(list)
+
+let listUse = new list();
+listUse.insert(22, 7)
+listUse.add(14)
+listUse.add(41)
+listUse.add(14)
+listUse.insert(12)
+// listUse.delete(0)
+// listUse.delete(2)
+console.log(listUse.print())
+console.log(listUse.printIndex(14))
