@@ -37,8 +37,7 @@ listUse.insert(12);
 // listUse.delete(0);
 // listUse.delete(2);
 console.log(listUse.print());
-console.log(listUse.printIndex(14));```
-```
+console.log(listUse.printIndex(14));
 
 ###Resultado Esperado
 Ao executar o exemplo acima, você deve obter a seguinte saída:
