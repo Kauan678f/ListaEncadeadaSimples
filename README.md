@@ -44,3 +44,5 @@ console.log(listUse.printIndex(14));
 - Lista completa: 12 -> 22 -> 14 -> 41 -> 14 ->
 - Posição do elemento 14: 2 -> 4 ->
 
+### Autor
+  https://www.linkedin.com/in/kauan-silva-926306233/
