@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindo à documentação do código-fonte para Lista Encadeada. Esta documentação visa fornecer informações abrangentes sobre a estrutura, funcionalidades e implementação deste projeto. Se você é um desenvolvedor iniciante ou experiente, esperamos que esta documentação facilite a compreensão.
+Esta documentação visa fornecer informações sobre a estrutura, funcionalidades e implementação deste projeto. Se você é um desenvolvedor iniciante ou experiente, espero que esta documentação facilite a compreensão.
 
 ## Objetivo do Projeto
 
