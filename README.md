@@ -16,7 +16,7 @@ O objetivo principal deste projeto é praticar conceitos de estrutura de dados.
 
 ### Métodos
 
-- **add(data):** Adiciona o dado à lista.
+- **add(number):** Adiciona o dado à lista.
 - **print(position?):** Retorna todos os dados ou o dado na posição especificada.
 - **printIndex(element):** Retorna a posição do elemento especificado.
 - **delete(position?):** Exclui o primeiro elemento da lista ou o elemento na posição especificada.
