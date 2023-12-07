@@ -46,4 +46,4 @@ console.log(listUse.printIndex(14));
 
 ### Autor
   Kauan Silva da Costa
-  https://www.linkedin.com/in/kauan-silva-926306233/
+  - https://www.linkedin.com/in/kauan-silva-926306233/
