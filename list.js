@@ -1,55 +1,63 @@
 // onde ocorre a logica de programação 
 
-import noList from "./noList.js"
+const noList = require("./noList.js")
 class list {
+    
     constructor(){ // A cabeça e o final da lista
         this.root = null
         this.tall = null
     }
 
     add(data){ // adicionar um elemento
+        let longListStart = this.len()
         if(!this.root){ // verificar se a cabeça é nulla
             let newData = new noList(data)
             this.root = newData
             this.tall = newData
-            return;
         }
         else{ 
             let newData = new noList(data)
             this.tall.next = newData
             this.tall = this.tall.next
-            return;
+        }
+        let longListlast = this.len()
+        if(longListStart != longListlast) {
+            return true
+        }else{
+            return false
         }
     }
 
     print(position){ // sem paramentro printa a lista toda, mas com o parametro so retorna 
         let time = this.root // o o elemento da posição
+        let response = ""
 
         if (!time){ //verificar se a cabeça é nulla
             console.log("Voce não pode printar uma lista vazia")
-            return;
+            // return false;
         }else{
+            
             if(position == undefined){ // retorna a lista inteira
-                let response = ""
                 while(time){
                     response += `${time.data} -> `
                     time = time.next
                 }
-                return response
             }else{ // retorna só po elemento da posição
                 let fnPosition = 0
-                let response;
                 while(time){
                     if(fnPosition == position){
                         response = time.data
-                        return response
                     }
                     time = time.next
                     fnPosition += 1
                 }
-                return;
             }
             
+        }
+        if(response != undefined || response != "" || response != " "){
+            return true
+        }else{
+            return false
         }
     }
 
@@ -78,12 +86,13 @@ class list {
     }
 
     delete(position){
+        let longListStart = this.len()
         if(!this.root){
             console.log("Não pode remover um item de uma lista vazia")
+            // return
         }
         else if(position == 0 || position == undefined){
             this.root = this.root.next
-            return;
         }else{
             let fnPosition = 1
             let back = this.root
@@ -97,23 +106,28 @@ class list {
                 time = time.next
                 back = back.next
             }
-            console.log("Posição inexistente")
-            return
+            
         }
-        
+        let longListlast = this.len()
+        if(longListStart != longListlast) {
+            return true
+        }else{
+            return false
+        }
+        // console.log("Posição inexistente")
+        // return 
     }
 
     insert(data, position){
+        let longListStart = this.len()
         if(!this.root){
             this.add(data)
-            return
         }
         else if(position == undefined || position == 0){
             let newData = new noList(data)
             let time = newData
             time.next = this.root
             this.root = time
-            return;
         }else{
             let back = this.root
             let time = this.root.next
@@ -123,17 +137,20 @@ class list {
                 if(fnPosition == position){
                     newData.next = time
                     back.next = newData
-                    return
                 }
                 back = back.next
                 time = time.next
                 fnPosition += 1
             }
             console.log("Posição inexistente")
-            return;
         }
         
-        
+        let longListlast = this.len()
+        if(longListStart != longListlast) {
+            return true
+        }else{
+            return false
+        }
     }
 
     len(){
@@ -151,4 +168,4 @@ class list {
     }
 }
 
-export default list
+module.exports = new list()
